@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="org.geobricks.hallo" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>HalloWorld</name>
+    <name>Spartimm</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Solutions for travelers, from travelers.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="guido.barbaglia@gmail.com" href="http://geobrickstravels.com">
+        Geobricks Travels
     </author>
     <content src="index.html" />
     <preference name="permissions" value="none" />

@@ -16,12 +16,12 @@
     </feature>
     <allow-intent href="itms:*" />
     <allow-intent href="itms-apps:*" />
-    <name>HalloWorld</name>
+    <name>Spartimm</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Solutions for travelers, from travelers.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="guido.barbaglia@gmail.com" href="http://geobrickstravels.com">
+        Geobricks Travels
     </author>
     <content src="index.html" />
     <preference name="permissions" value="none" />

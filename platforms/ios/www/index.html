@@ -14,14 +14,9 @@
         <!--<script type="text/javascript" src="js/index.js"></script>-->
         <script type="text/javascript">
           function init() {
-            alert('RequireJS: Done! 1');
             require.config({ baseUrl: "js/libs" });
-            alert('RequireJS: Done! 2');
             require(['../index'], function (app) {
-                alert('RequireJS: Done! 3');
-                alert(app);
                 app.initialize();
-                alert('RequireJS: Done! 4');
             });
           }
         </script>
