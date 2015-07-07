@@ -16,10 +16,12 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+ define(function (require) {
 var app = {
     // Application Constructor
     initialize: function() {
         this.bindEvents();
+        alert('RequireJS: Done!');
     },
     // Bind Event Listeners
     //
@@ -47,3 +49,5 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
+return app;
+});
